@@ -1,0 +1,171 @@
+/* Home Section */
+#home {
+  height: auto;
+  background-image: url(../cover.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#home .container-fluid {
+  padding: 2% 7%;
+}
+
+.nav-item {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0 18px;
+}
+
+#home .row {
+  padding: 180px 0;
+  height: auto;
+  color: #fff;
+}
+
+#home .row h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media(max-width: 960px) {
+  #home .row h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+}
+
+/* Travell Spot Section */
+#Travell-Spot {
+  height: auto;
+  padding: 10%;
+  text-align: center;
+  background-color: #f7f6e7;
+}
+
+#Travell-Spot .place {
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+  margin-bottom: 10px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px;
+}
+.card-body{
+  text-align: left;
+}
+#star-icon{
+  size=small;
+  color: #ffc93c;
+}
+#Travell-Spot p{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: .85rem;
+}
+#Travell-Spot .comment{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: .7rem;
+}
+
+.Travell-Spot-Title {
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+#Travell-Spot h2 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+#Travell-Spot h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1rem;
+}
+#Travell-Spot h4 {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
+
+/* Review Section */
+#review {
+  text-align: center;
+  background-color: white;
+  color: #000;
+  background-image: url(../cover2.jpg);
+  background-size: cover;
+}
+#review h2 {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.review-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* About Us Section */
+#about{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #f7f6e7;
+}
+.profileimg{
+  width: 190px;
+  border: 2px solid;
+  border-color: red;
+  border-radius: 100%;
+}
+#about h3 {
+  padding-top: 20px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+#about h2 {
+  padding-bottom: 60px;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 2.3rem;
+}
+
+/* footer section */
+#footer{
+  padding: 3% 7%;
+  text-align: center;
+  background-color: #ffe268;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  font-weight: 700;
+  color: #364547
+
+}
+#footer .icon1{
+  padding: 20px 10px;
+  color: #364547;
+}
+#footer .icon1:hover{
+  color: #1b2021 ;
+}
